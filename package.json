@@ -1,0 +1,28 @@
+{
+  "name": "pulleverything",
+  "version": "0.1.0",
+  "description": "run this in the parent directory of many git repos to run git pull on all of them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/naterkane/pulleverything.git"
+  },
+  "keywords": [
+    "git",
+    "pull",
+    "util",
+    "utility"
+  ],
+  "author": "Nater Kane <nater@naterkane.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naterkane/pulleverything/issues"
+  },
+  "homepage": "https://github.com/naterkane/pulleverything#readme",
+  "dependencies": {
+    "shelljs": "^0.7.0"
+  }
+}
